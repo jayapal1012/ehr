@@ -1,10 +1,24 @@
-node_modules
-dist
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# macOS system files
 .DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
+
+# Local database files (for Docker or local PG)
 postgres_data/
+
+# Environment variables
 .env
 
+# Server static files (if generated during runtime)
+server/public/
+
+# Vite config backups or variations
+vite.config.ts.*
+*.tar.gz
+
+# Backups or zipped folders
 final_del.zip
